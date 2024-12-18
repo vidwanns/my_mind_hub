@@ -41,3 +41,4 @@ const SecondSection = () => {
 };
 
 export default SecondSection;
+ 
