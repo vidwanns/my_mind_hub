@@ -1,0 +1,65 @@
+/* Header Styles */
+.header {
+  position: absolute;
+  top: 60px;
+  left: 50%; 
+  transform: translateX(-50%); 
+  height: 70px;
+  width: 1367px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  background: #e1dcd8;
+  z-index: 10;
+  border-radius: 50px; 
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo img {
+  width: 100%;
+  height: auto;
+}
+
+.vertical-line {
+  width: 1px;
+  height: 40px;
+  background-color: #c0c0c0;
+  margin: 0 30px;
+}
+
+.header__nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: #000;
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #00ff99;
+}
+
+.header__cta .find-therapist-button {
+  background-color: #00703c;
+  color: white;
+  text-decoration: none;
+  padding: 18px 20px;
+  border-radius: 50px;
+  font-size: 21px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.find-therapist-button:hover {
+  background-color: #00582d;
+}
