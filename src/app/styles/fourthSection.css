@@ -1,0 +1,95 @@
+/* Fourth Section Container */
+.fourth-section {
+  background-color: #fdf9f3;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading */
+.fourth-section__heading {
+  font-size: 50px;
+  color: #00703c;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+/* Practitioner Grid */
+.licensed_practitioner-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  justify-content: center;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.licensed_practitioner-card {
+  background-color: white;
+  border: 1px solid #01652F4D;
+  border-radius: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  height: 402px;
+  width: 314px;
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  padding: 20px;
+}
+
+.licensed_practitioner-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Ensure the details (text) stay at the top */
+.licensed_practitioner-details {
+  order: -1; /* Moves the text to the top */
+  padding: 15px;
+}
+
+.licensed_practitioner-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 5px;
+  color: #333;
+}
+
+.licensed_practitioner-specialty {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+.licensed_practitioner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.licensed_practitioner-details {
+  padding: 15px;
+  text-align: left;
+  padding-left: 0;
+  padding-top: 0;
+}
+
+/* Button */
+.search-therapists-button {
+  background-color: #00703c;
+  color: white;
+  border: none;
+  border-radius: 45px;
+  padding: 20px 25px;
+  font-size: 21px;
+  cursor: pointer;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  transition: background-color 0.3s ease;
+}
+
+.search-therapists-button:hover {
+  background-color: #00582d;
+}
