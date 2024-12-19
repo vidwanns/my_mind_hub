@@ -14,7 +14,7 @@ const FifthSection = () => {
           <p>
             Finding support is easy with Mind Hub Directory. Explore therapists, learn about their qualifications, and request help online. Healing happens in different steps, and on our platform, you’ll discover a therapist for every part of your journey.
           </p>
-          <button className="cta-button">Search Therapists</button>
+          <button className="fifth_cta-button">Search Therapists</button>
         </div>
         <div className="content-image_Boy">
           <img src="/images/fifthSection/boy1.png" alt="Therapist Session" />
@@ -34,7 +34,7 @@ const FifthSection = () => {
           <p>
             For a rapid mental health check or self-care, explore our list of mental health practitioners on Mind Hub Directory. In our fast-paced world, taking a moment for self-care is crucial.
           </p>
-          <button className="cta-button">Book A Session</button>
+          <button className="fifth_cta-button">Book A Session</button>
         </div>
       </div>
     </section>
