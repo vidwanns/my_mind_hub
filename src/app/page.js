@@ -3,6 +3,7 @@ import FirstSection from "./components/layout/firstSection";
 import SecondSection from "./components/layout/secondSection";
 import ThirdSection from "./components/layout/thirdSection";
 import FourthSection from "./components/layout/fourthSection";
+import FifthSection from "./components/layout/fifthSection";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <SecondSection />
       <ThirdSection />
       <FourthSection />
+      <FifthSection />
     </div>
   );
 }
