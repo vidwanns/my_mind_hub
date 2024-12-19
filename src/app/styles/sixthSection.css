@@ -1,84 +1,84 @@
 .sixth-section {
-    background-color: #C4DC3F26;
-    padding: 40px 20px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-  
-  .section-subheading {
-    font-size: 20px;
-    color: #00703c;
-    margin-bottom: 10px;
-  }
-  
-  .section-heading {
-    font-size: 60px;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .sixth_cta-button {
-    background-color: #00703c;
-    color: white;
-    border: none;
-    border-radius: 25px;
-    padding: 15px 25px;
-    font-size: 1rem;
-    cursor: pointer;
-    margin-bottom: 40px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .sixth_cta-button:hover {
-    background-color: #00582d;
-  }
-  
-  .card-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0;
-    justify-items: center;
-    width: 1600px;
-    margin: 0 auto;
-  }
-  
-  .info-card {
-    background-color: white;
-    border-radius: 25px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    height: 630px;
-    width: 492px;
-    padding: 30px;
-  }
-  
-  .card-image {
-    width: 100%;
-    height: 368px;
-    object-fit: cover;
-    border-radius: 10px;
-  }
-  
-  .card-text {
-    padding-left: 0;
-    padding-top: 40px;
-  }
-  
-  .card-title {
-    font-size: 30px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 10px;
-  }
-  
-  .card-description {
-    font-size: 20px;
-    color: #666;
-    line-height: 27px;
-  }
-  
+  background-color: #c4dc3f26;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-subheading {
+  font-size: 20px;
+  color: #00703c;
+  margin-bottom: 10px;
+}
+
+.section-heading {
+  font-size: 60px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.sixth_cta-button {
+  background-color: #00703c;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 40px;
+  transition: background-color 0.3s ease;
+}
+
+.sixth_cta-button:hover {
+  background-color: #00582d;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  justify-items: center;
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.info-card {
+  background-color: white;
+  border: 1px solid #01652f4d;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  height: 630px;
+  width: 492px;
+  padding: 30px;
+}
+
+.card-image {
+  width: 100%;
+  height: 368px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-text {
+  padding-left: 0;
+  padding-top: 40px;
+}
+
+.card-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  font-size: 20px;
+  color: #666;
+  line-height: 27px;
+}

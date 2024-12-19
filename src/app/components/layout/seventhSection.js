@@ -49,7 +49,6 @@ const reviews = [
 ];
 
 const SeventhSection = () => {
-  // Repeat reviews for seamless scrolling
   const repeatedReviews = [...reviews, ...reviews];
 
   return (
