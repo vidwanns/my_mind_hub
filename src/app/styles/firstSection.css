@@ -3,7 +3,8 @@
   position: relative;
   background: url("/images/firstSection/BG_image.png") no-repeat center center; /* Replace with your background image path */
   background-size: cover;
-  height: 100vh;
+  height: 924px;
+  margin-top: -70px;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -1,17 +1,18 @@
 /* Header Styles */
 .header {
   position: absolute;
+  position: sticky;
   top: 60px;
-  left: 50%; 
-  transform: translateX(-50%); 
+  margin: 0 auto;
   height: 70px;
   width: 1367px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 10px;
-  background: #e1dcd8;
-  z-index: 10;
+  background: rgba(225, 225, 225, 0.8); /* Semi-transparent background for blur effect */
+  backdrop-filter: blur(20px);
+  z-index: 100;
   border-radius: 50px; 
 }
 
@@ -28,7 +29,7 @@
 .vertical-line {
   width: 1px;
   height: 40px;
-  background-color: #c0c0c0;
+  background-color: #727272;
   margin: 0 30px;
 }
 
@@ -41,12 +42,12 @@
   color: #000;
   text-decoration: none;
   font-size: 21px;
-  font-weight: 500;
+  font-weight: bold;
   transition: color 0.3s ease;
 }
 
 .nav-link:hover {
-  color: #00ff99;
+  color: #5d5d5d;
 }
 
 .header__cta .find-therapist-button {

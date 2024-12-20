@@ -39,17 +39,14 @@ const SearchButtonArrow = () => (
 const FirstSection = () => {
   return (
     <section className="first-section">
-      <Header />
-
       <div className="first-section__content">
         <h1 className="heading">Better Mental Health Starts Here</h1>
         <p className="subheading">
-          Discover, book, and save your preferred practitioners for yourself or
-          your loved ones.
+          Discover, book, and save your preferred practitioners for yourself or your loved ones.
         </p>
 
+        {/* Search Bar */}
         <div className="search-bar">
-          {/* First Dropdown */}
           <div className="search-bar__input custom-dropdown">
             <select className="input-field">
               <option value="">Practitioners or Concerns</option>
@@ -58,24 +55,14 @@ const FirstSection = () => {
               <option>Clinical Psychologist</option>
               <option>Cognitive Behavioral Therapist</option>
               <option>Counselor</option>
-              <option>Counselor</option>
-              <option>Counselor</option>
-              <option>Counselor</option>
-              <option>Counselor</option>
-              <option>Counselor</option>
             </select>
             <span className="dropdown-arrow">
               <DropdownArrow />
             </span>
           </div>
 
-          {/* Second Input */}
           <div className="search-bar__input custom-dropdown">
-            <input
-              type="text"
-              placeholder="Suburb Or Postcode"
-              className="input-field"
-            />
+            <input type="text" placeholder="Suburb Or Postcode" className="input-field" />
             <span className="dropdown-arrow">
               <DropdownArrow />
             </span>
