@@ -2,12 +2,12 @@ import React from "react";
 import "../../styles/home-css/secondSection.css";
 
 const practitioners = [
-  { id: 1, title: "Psychologist", image: "/images/secondSection/psychologist.png" },
-  { id: 2, title: "Marriage & Family", image: "/images/secondSection/marriage.png" },
-  { id: 3, title: "Child Psychologist", image: "/images/secondSection/child.png" },
-  { id: 4, title: "Counselor", image: "/images/secondSection/counselor.png" },
-  { id: 5, title: "Psychiatrist", image: "/images/secondSection/psychiatrist.png" },
-  { id: 6, title: "Life Coach", image: "/images/secondSection/life.png" },
+  { id: 1, title: "Psychologist", image: "/images/home/secondSection/psychologist.png" },
+  { id: 2, title: "Marriage & Family", image: "/images/home/secondSection/marriage.png" },
+  { id: 3, title: "Child Psychologist", image: "/images/home/secondSection/child.png" },
+  { id: 4, title: "Counselor", image: "/images/home/secondSection/counselor.png" },
+  { id: 5, title: "Psychiatrist", image: "/images/home/secondSection/psychiatrist.png" },
+  { id: 6, title: "Life Coach", image: "/images/home/secondSection/life.png" },
 ];
 
 const SecondSection = () => {
@@ -36,7 +36,7 @@ const SecondSection = () => {
         <div className="partners">
           <p>Mind Hub Directory Partners With</p>
           <img
-            src="/images/secondSection/Australian.svg"
+            src="/images/home/secondSection/Australian.svg"
             alt="Australian & New Zealand Mental Health Association"
             className="partners-logo"
           />

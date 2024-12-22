@@ -7,7 +7,7 @@ const Header = () => {
   <div className="header__left">
     
     <div className="header__logo">
-      <img src="/images/header/mindhub_logo.svg" alt="My Mind Hub Logo" className="logo-icon" />
+      <img src="/images/home/header/mindhub_logo.svg" alt="My Mind Hub Logo" className="logo-icon" />
     </div>
 
     <div className="vertical-line"></div>

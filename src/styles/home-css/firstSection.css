@@ -1,7 +1,7 @@
 /* First Section Container */
 .first-section {
   position: relative;
-  background: url("/images/firstSection/BG_image.png") no-repeat center center; /* Replace with your background image path */
+  background: url("/images/home/firstSection/BG_image.png") no-repeat center center; /* Replace with your background image path */
   background-size: cover;
   height: 924px;
   margin-top: -70px;

@@ -17,14 +17,14 @@ const FifthSection = () => {
           <button className="fifth_cta-button">Search Therapists</button>
         </div>
         <div className="content-image_Boy">
-          <img src="/images/fifthSection/boy1.png" alt="Therapist Session" />
+          <img src="/images/home/fifthSection/boy1.png" alt="Therapist Session" />
         </div>
       </div>
 
       {/* Second Block */}
       <div className="content-block reverse">
         <div className="content-image_Girl">
-          <img src="/images/fifthSection/girl2.png" alt="Mental Health Support" />
+          <img src="/images/home/fifthSection/girl2.png" alt="Mental Health Support" />
         </div>
         <div className="content-text">
           <h3>Mental Health Care Is Self Care</h3>

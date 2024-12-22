@@ -9,7 +9,7 @@ const articles = [
     title: "How to Silence Your Inner Critic: Once and For All",
     description:
       "Are you your own worst critic? Is your negative self-talk sabotaging your success? Do your past failures dominate your thinking and mindset? Here are 3 ways to silence your inner critic once and for all.",
-    image: "/images/eighthSection/silence.png",
+    image: "/images/home/eighthSection/silence.png",
   },
   {
     id: 2,
@@ -17,14 +17,14 @@ const articles = [
       "Educate and Empower – Liza Pavlakos shares her story in Shepparton News",
     description:
       "Liza Pavlakos Speaks to Carers During Foster Care Week! Last week our CEO, Liza Pavlakos, traveled to Shepparton in Victoria, Australia, to meet with local carers.",
-    image: "/images/eighthSection/educate.png",
+    image: "/images/home/eighthSection/educate.png",
   },
   {
     id: 3,
     title: "Overcoming Anxiety: Navigating the Path to Seeking Support",
     description:
       "Introduction: In our fast-moving society, incidences of anxiety are proliferating, influencing diverse groups regardless of age or status. It’s crucial to recognize that anxiety acts.",
-    image: "/images/eighthSection/overcome.png",
+    image: "/images/home/eighthSection/overcome.png",
   },
 ];
 

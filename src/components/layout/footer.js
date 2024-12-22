@@ -10,7 +10,7 @@ const Footer = () => {
         {/* Left Section: Logo and Navigation */}
         <div className="footer-navigation">
           <div className="footer-logo">
-            <img src="/images/footer/footer_logo.svg" alt="My Mind Hub Logo" className="footer-logo-image" />
+            <img src="/images/home/footer/footer_logo.svg" alt="My Mind Hub Logo" className="footer-logo-image" />
           </div>
     <div className="footer_vertical-line"></div>
           <nav className="footer-links">

@@ -1,0 +1,102 @@
+.first-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background: #f9f9f9; /* Adjust to your background color */
+  }
+  
+  .content {
+    max-width: 50%;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0b6632; /* Green color */
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .join-btn {
+    background-color: #0b6632;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .join-btn:hover {
+    background-color: #094d27;
+  }
+  
+  .image-container {
+    position: relative;
+    max-width: 45%;
+  }
+  
+  .sessions-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .verified-users {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .user-count {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #f39c12; /* Orange */
+  }
+  
+  .user-label {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .total-earnings {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .earnings-icon {
+    font-size: 1.5rem;
+    color: #f39c12;
+  }
+  
+  .earnings-label {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 5px;
+  }
+  
+  .earnings-value {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0b6632;
+    margin-top: 5px;
+  }
+  
