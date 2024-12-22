@@ -1,0 +1,101 @@
+/* Second Section Container */
+.second-section {
+  background-color: #fdf9f3;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.second-section__heading {
+  font-size: 50px;
+  color: #333;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.highlight {
+  color: #00703c;
+}
+
+/* Practitioner Grid */
+.practitioner-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  justify-items: center;
+  margin-bottom: 3rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.practitioner-item {
+  position: relative;
+  width: 100%;
+  max-width: 290px;
+}
+
+.practitioner-overlay {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.practitioner-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  transition: transform 0.3s ease; 
+}
+
+.practitioner-item:hover .practitioner-image {
+  transform: scale(1.02); 
+}
+
+.practitioner-title-overlay {
+  position: absolute;
+  bottom: 30px; 
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Partners Section */
+.partners-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.partners {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  background-color: white;
+  border-radius: 12px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 20px;
+  width: 1028px;
+  margin-top: 120px;
+}
+
+.partners p {
+  font-size: 34px;
+  font-weight: 500;
+  color: #333;
+  margin: 0;
+}
+
+.partners-logo {
+  width: auto;
+  height: 100px;
+}

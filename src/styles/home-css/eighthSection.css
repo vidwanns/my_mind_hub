@@ -45,7 +45,7 @@
 }
 
 .article-card:hover {
-  transform: translateY(-10px);
+  border: 1px solid #00703c;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 

@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/thirdSection.css";
+import "../../styles/home-css/thirdSection.css";
 
 const logos = [
   { id: 1, image: "/images/thirdSection/image_19.svg", alt: "logo1" },

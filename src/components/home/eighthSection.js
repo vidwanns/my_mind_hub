@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import "../../styles/eighthSection.css";
+import "../../styles/home-css/eighthSection.css";
 
 const articles = [
   {

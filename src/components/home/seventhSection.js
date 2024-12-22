@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import "../../styles/seventhSection.css";
+import "../../styles/home-css/seventhSection.css";
 
 const reviews = [
   {

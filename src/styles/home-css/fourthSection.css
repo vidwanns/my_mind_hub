@@ -40,7 +40,7 @@
 }
 
 .licensed_practitioner-card:hover {
-  transform: translateY(-5px);
+  border: 1px solid #00703c;
 }
 
 .licensed_practitioner-details {

@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/sixthSection.css";
+import "../../styles/home-css/sixthSection.css";
 
 const SixthSection = () => {
   const cards = [

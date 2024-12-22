@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../layout/header";
-import "../../styles/firstSection.css";
+import Header from "../../styles/layout/header.css";
+import "../../styles/home-css/firstSection.css";
 
 const DropdownArrow = () => (
   <svg

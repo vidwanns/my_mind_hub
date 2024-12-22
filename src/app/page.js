@@ -1,18 +1,15 @@
-import Header from "./components/layout/header";
-import FirstSection from "./components/layout/firstSection";
-import SecondSection from "./components/layout/secondSection";
-import ThirdSection from "./components/layout/thirdSection";
-import FourthSection from "./components/layout/fourthSection";
-import FifthSection from "./components/layout/fifthSection";
-import SixthSection from "./components/layout/sixthSection";
-import SeventhSection from "./components/layout/seventhSection";
-import EighthSection from "./components/layout/eighthSection";
-import Footer from "./components/layout/footer";
+import FirstSection from "../components/home/firstSection";
+import SecondSection from "../components/home/secondSection";
+import ThirdSection from "../components/home/thirdSection";
+import FourthSection from "../components/home/fourthSection";
+import FifthSection from "../components/home/fifthSection";
+import SixthSection from "../components/home/sixthSection";
+import SeventhSection from "../components/home/seventhSection";
+import EighthSection from "../components/home/eighthSection";
 
 function App() {
   return (
     <div>
-      <Header />
       <FirstSection />
       <SecondSection />
       <ThirdSection />
@@ -21,7 +18,6 @@ function App() {
       <SixthSection/>
       <SeventhSection/>
       <EighthSection/>
-      <Footer/>
     </div>
   );
 }

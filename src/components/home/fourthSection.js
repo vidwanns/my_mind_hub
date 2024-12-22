@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/fourthSection.css";
+import "../../styles/home-css/fourthSection.css";
 
 const licensed_practitioners = [
   {
