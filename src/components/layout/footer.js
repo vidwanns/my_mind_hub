@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import "../../styles/layout/footer.css";
+import "../../styles/layout-css/footer.css";
 
 const Footer = () => {
   return (
