@@ -1,13 +1,12 @@
 import React from "react";
 import "../../styles/list-your-practice-css/secondSection.css";
-import mobileImage from "./path/to/your/image.png"; // Replace with the actual image path
 
 const SecondSection = () => {
   return (
     <section className="second-section">
       <div className="content">
-        <h2>Why Choose My Mind Hub?</h2>
-        <p>
+        <h2 className="section-heading">Why Choose My Mind Hub?</h2>
+        <p className="section-description">
           Many mental health websites exist, but we're Australian-owned and
           offer free advertising, so you won’t worry about your budget. We
           reach a broad audience through global presentations and partnerships
@@ -46,8 +45,12 @@ const SecondSection = () => {
           </div>
         </div>
       </div>
-      <div className="image-container">
-        <img src={mobileImage} alt="Mobile View" />
+      <div className="image-section">
+        <img
+          src="/images/list-your-practice/secondSection/clara_connor.png"
+          alt="Mobile View"
+          className="mobile-image"
+        />
       </div>
     </section>
   );
