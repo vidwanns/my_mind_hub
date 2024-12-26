@@ -1,7 +1,7 @@
 .third-section {
     padding: 50px;
-    background-color: #f8f9f4; /* Light cream background */
-    color: #000; /* Black text */
+    background-color: #f8f9f4;
+    color: #000; 
   }
   
   .third_header {
@@ -16,7 +16,7 @@
   }
   
   .section-heading span {
-    color: #28a745; /* Green color for "Practitioners" */
+    color: #28a745; 
   }
   
   .section-description {
@@ -48,7 +48,7 @@
   }
   
   .guide-title span {
-    color: #ff8c00; /* Orange color for "My Mind Hub" */
+    color: #ff8c00;
   }
   
   .guide-steps {
@@ -94,7 +94,7 @@
   
   .signin-image {
     width: 100%;
-    height: 500px; /* Adjust the height as needed */
+    height: 500px; 
     background-image: url('/images/list-your-practice/thirdSection/signin_card.png'); /* Replace with the correct path to the sign-in card image */
     background-size: contain;
     background-repeat: no-repeat;
