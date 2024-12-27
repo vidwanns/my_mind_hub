@@ -33,19 +33,24 @@
     justify-content: space-between;
     align-items: flex-start;
     gap: 20px;
+    background-color:#eef5cb;
+    border-radius: 20px;
+    height: 937px;
   }
   
   .guide {
     flex: 1;
-    background-color: #fff;
+    background-color: #eef5cb;
     padding: 20px;
     border-radius: 10px;
+    margin: auto;
+    padding-left: 50px;
   }
   
   .guide-title {
     font-size: 50px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
   
   .guide-title span {
@@ -66,7 +71,7 @@
   
   .guide-steps li ul {
     list-style-type: disc;
-    margin-left: 20px;
+    margin-left: 35px;
     margin-top: 15px;
     margin-bottom: 25px;
     color: #555;
@@ -97,27 +102,19 @@
     margin-bottom: 0;
     padding: 0;
   }
-
-  .dropdown-steps {
-    list-style-type: disc;
-    margin-left: 20px;
-    margin-top: 15px;
-    margin-bottom: 25px;
-    color: #555;
-  }
   
   .dropdown-steps li {
-    margin-bottom: 5px; /* Add specific margin-bottom for steps */
+    margin-bottom: 5px; 
   }  
   
   .get-started-btn {
     background-color: #ff8c00;
     color: #fff;
     border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
+    border-radius: 50px;
+    padding: 15px 30px;
     font-size: 1rem;
-    margin-top: 20px;
+    margin-top: 50px;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
@@ -131,6 +128,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
   }
   
   .signin-image {
@@ -141,5 +139,6 @@
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 10px;
+    scale: 1.3;
   }
   
