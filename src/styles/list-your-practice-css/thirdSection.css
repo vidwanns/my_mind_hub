@@ -23,7 +23,7 @@
   .section-description {
     font-size: 26px;
     line-height: 1.6;
-    width: 980px;
+    width: 930px;
     margin: 0 auto;
     margin-bottom: 100px;
   }
@@ -108,12 +108,12 @@
   }  
   
   .get-started-btn {
-    background-color: #ff8c00;
+    background-color: #F36800;
     color: #fff;
     border: none;
     border-radius: 50px;
     padding: 15px 30px;
-    font-size: 1rem;
+    font-size: 21px;
     margin-top: 50px;
     cursor: pointer;
     transition: background-color 0.3s ease;
