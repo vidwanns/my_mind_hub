@@ -22,7 +22,7 @@ const ThirdSection = () => {
           practice.
         </p>
       </div>
-      <div className="container">
+      <div className="third_container">
         <div className="guide">
           <h3 className="guide-title">
             Here’s a quick guide to using <span>My Mind Hub:</span>

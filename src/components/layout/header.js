@@ -3,8 +3,8 @@ import "../../styles/layout-css/header.css";
 
 const Header = () => {
   return (
-    <div className="container">
-      <header className="header">
+    <div className="header">
+      <header className="container">
         <div className="header__left">
           <div className="header__logo">
             <img

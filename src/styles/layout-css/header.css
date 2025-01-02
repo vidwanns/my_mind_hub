@@ -2,17 +2,20 @@
 .header {
   position: fixed;
   top: 60px;
-  margin: 0 auto;
+  width: 100%;
+
+  z-index: 100;
+}
+.container {
+  border-radius: 50px; 
   height: 70px;
-  width: 1367px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 10px;
   background: rgba(225, 225, 225, 0.8);
   backdrop-filter: blur(20px);
-  z-index: 100;
-  border-radius: 50px; 
 }
 
 .header__left {
