@@ -3,7 +3,7 @@
   background-color: #fdf9f3;
   padding: 40px 20px;
   text-align: center;
-  font-family: Arial, sans-serif;
+  font-family: var(--Outfit);
 }
 
 /* Heading */
@@ -57,6 +57,7 @@
 }
 
 .licensed_practitioner-specialty {
+  font-family: var(--Outfit);
   font-size: 14px;
   color: #666;
   margin: 0;
@@ -83,6 +84,7 @@
   border: none;
   border-radius: 45px;
   padding: 20px 25px;
+  font-family: var(--Outfit);
   font-size: 21px;
   cursor: pointer;
   margin-top: 5rem;

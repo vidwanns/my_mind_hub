@@ -2,7 +2,7 @@
     background-color: #fdfcf7;
     padding: 100px 20px;
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: var(--Outfit);
     overflow: hidden;
   }
   
@@ -76,6 +76,7 @@
   }
   
   .review-text {
+    font-family: var(--Outfit);
     font-size: 20px;
     color: #333;
     margin-bottom: 10px;
@@ -83,6 +84,7 @@
   }
   
   .review-author-name {
+    font-family: var(--Outfit);
     font-size: 20px;
     color: #00703c;
     font-weight: bold;

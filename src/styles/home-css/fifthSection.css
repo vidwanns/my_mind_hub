@@ -33,12 +33,14 @@
 }
 
 .content-text h3 {
+  font-family: var(--Outfit);
   font-size: 20px;
   color: #00703c;
   margin-bottom: 10px;
 }
 
 .content-text h2 {
+  font-family: var(--Outfit);
   font-size: 44px;
   font-weight: 700;
   line-height: 47px;
@@ -53,6 +55,7 @@
 }
 
 .content-text p {
+  font-family: var(--Outfit);
   font-size: 20px;
   color: #555;
   margin-bottom: 20px;
@@ -60,11 +63,12 @@
 }
 
 .fifth_cta-button {
+  font-family: var(--Outfit);
   margin-top: 60px;
   background-color: #00703c;
   color: white;
   border: none;
-  border-radius: 25px;
+  border-radius: 45px;
   padding: 15px 25px;
   font-size: 21px;
   cursor: pointer;

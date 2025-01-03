@@ -3,9 +3,8 @@ import "../../styles/list-your-practice-css/firstSection.css";
 
 const FirstSection = () => {
   return (
-    <section className="list-first-section">
+    <section id="list" className="list-first-section">
       <div className="green-background"></div>{" "}
-      {/* Green background outside the container */}
       <div className="list-container">
         <div className="list-content">
           <h1 className="list-heading">

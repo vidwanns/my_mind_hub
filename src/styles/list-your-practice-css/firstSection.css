@@ -26,6 +26,7 @@
 }
 
 .list-heading {
+  font-family: var(--Outfit);
   font-size: 70px;
   font-weight: bold;
   color: #0b6632;
@@ -33,6 +34,7 @@
 }
 
 .list-description {
+  font-family: var(--Outfit);
   font-size: 26px;
   color: #555;
   margin-bottom: 20px;
@@ -47,6 +49,7 @@
   border: none;
   border-radius: 50px;
   cursor: pointer;
+  font-family: var(--Outfit);
   font-size: 26px;
   display: inline-flex;
   align-items: center;
@@ -118,19 +121,22 @@
 }
 
 .user-count {
+  font-family: var(--Outfit);
   font-size: 36px;
   font-weight: bold;
   color: #f39c12;
 }
 
 .user-label {
+  font-family: var(--Outfit);
   font-size: 0.9rem;
   color: #555;
   width: 100px;
 }
 
 .user-icon {
-  font-size: 2rem; /* Adjust size for better visibility */
+  font-size: 2rem;
+  font-family: var(--Outfit);
   color: #0b6632;
 }
 
@@ -149,23 +155,26 @@
 }
 
 .earnings-icon {
-  font-size: 2rem; /* Slightly larger for better visibility */
+  font-size: 2rem;
+  font-family: var(--Outfit);
   color: #f39c12;
 }
 
 .earnings-text {
   display: flex;
-  flex-direction: column; /* Stacks text vertically */
-  text-align: left; /* Aligns text to the left */
+  flex-direction: column; 
+  text-align: left; 
 }
 
 .earnings-label {
+  font-family: var(--Outfit);
   font-size: 0.9rem;
   margin-bottom: 5px;
   color: #555;
 }
 
 .earnings-value {
+  font-family: var(--Outfit);
   font-size: 36px;
   font-weight: bold;
   color: #0b6632;

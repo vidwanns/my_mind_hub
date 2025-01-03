@@ -7,11 +7,19 @@
   -webkit-font-smoothing: antialiased;
 }
 
+@font-face {
+  font-family: "Outfit";
+  src: url("../styles/fonts/Outfit-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --GL-LT: "GalanoGrotesqueLight", sans-serif;
   --GL-RG: "GalanoGrotesqueRegular", sans-serif;
   --GL-MD: "GalanoGrotesqueMedium", sans-serif;
   --Kiona-RG: "Kiona-Regular", sans-serif;
+  --Outfit: "Outfit", sans-serif;
   --color-dark-rgb: 34, 34, 34; /* Example dark color in RGB format */
   --color-dark: #222222; /* Dark color in HEX format */
   --copy-size-m: 1em; /* Font size for medium-sized copy */
@@ -28,16 +36,13 @@ html,
 *::-webkit-scrollbar {
   display: none;
 }
+
 body {
-  font-family: var(--GL-RG);
+  font-family: var(--Outfit);
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  input::-webkit-outer-spin-button,
-  input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-  }
+}
 
   html {
     -webkit-text-size-adjust: none;
@@ -53,7 +58,7 @@ body {
     border-bottom: 1px solid #000 !important;
     transition: background-color 5000s ease-in-out 0s;
   }
-  imput {
+  input {
     box-shadow: none !important;
   }
   * {
@@ -67,7 +72,7 @@ body {
     color: inherit;
     text-decoration: none;
   }
-}
+
 .container {
   max-width: 1794px;
   width: 95%;
@@ -91,13 +96,15 @@ body {
   margin: 0 !important;
 }
 p {
-  font-family: var(--GL-LT);
+  font-family: var(--Outfit);
 }
 
 strong {
-  font-family: var(--GL-MD);
+  font-family: var(--Outfit);
 }
 
 button {
-  font-family: var(--Kiona-RG);
+  font-family: var(--Outfit);
 }
+
+

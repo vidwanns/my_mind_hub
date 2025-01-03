@@ -3,13 +3,11 @@
   position: fixed;
   top: 60px;
   width: 100%;
-
   z-index: 100;
 }
 .container {
   border-radius: 50px; 
   height: 70px;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,6 +41,7 @@
 .nav-link {
   color: #000;
   text-decoration: none;
+  font-family: var(--Outfit);
   font-size: 21px;
   font-weight: bold;
   transition: color 0.3s ease;
@@ -58,8 +57,8 @@
   text-decoration: none;
   padding: 18px 20px;
   border-radius: 50px;
+  font-family: var(--Outfit);
   font-size: 21px;
-  font-weight: bold;
   transition: background-color 0.3s ease;
 }
 

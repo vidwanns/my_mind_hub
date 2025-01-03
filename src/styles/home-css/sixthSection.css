@@ -2,7 +2,7 @@
   background-color: #c4dc3f26;
   padding: 40px 20px;
   text-align: center;
-  font-family: Arial, sans-serif;
+  font-family: var(--Outfit);
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -25,6 +25,7 @@
   border: none;
   border-radius: 25px;
   padding: 15px 25px;
+  font-family: var(--Outfit);
   font-size: 1rem;
   cursor: pointer;
   margin-bottom: 40px;
@@ -75,6 +76,7 @@
 }
 
 .card-title {
+  font-family: var(--Outfit);
   font-size: 30px;
   font-weight: bold;
   color: #333;
@@ -82,6 +84,7 @@
 }
 
 .card-description {
+  font-family: var(--Outfit);
   font-size: 20px;
   color: #666;
   line-height: 27px;

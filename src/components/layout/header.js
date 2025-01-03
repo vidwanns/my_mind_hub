@@ -13,9 +13,7 @@ const Header = () => {
               className="logo-icon"
             />
           </div>
-
           <div className="vertical-line"></div>
-
           <nav className="header__nav">
             <a href="#about" className="nav-link">
               About
@@ -28,7 +26,6 @@ const Header = () => {
             </a>
           </nav>
         </div>
-
         <div className="header__cta">
           <a href="#find-therapist" className="find-therapist-button">
             Find A Therapist

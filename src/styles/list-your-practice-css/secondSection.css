@@ -12,11 +12,13 @@
 }
 
 .section-heading {
+  font-family: var(--Outfit);
   font-size: 70px;
   margin-bottom: 20px;
 }
 
 .section-description {
+  font-family: var(--Outfit);
   font-size: 26px;
   line-height: 1.6;
   margin-bottom: 100px;
@@ -41,12 +43,14 @@
 }
 
 .feature h3 {
+  font-family: var(--Outfit);
   font-size: 34px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 .feature p {
+  font-family: var(--Outfit);
   font-size: 24px;
   margin: 0;
 }

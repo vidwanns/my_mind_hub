@@ -10,6 +10,7 @@
   }
   
   .section-heading {
+    font-family: var(--Outfit);
     font-size: 70px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -21,6 +22,7 @@
   }
   
   .section-description {
+    font-family: var(--Outfit);
     font-size: 26px;
     line-height: 1.6;
     width: 930px;
@@ -48,6 +50,7 @@
   }
   
   .guide-title {
+    font-family: var(--Outfit);
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 50px;
@@ -64,6 +67,7 @@
   }
   
   .guide-steps li {
+    font-family: var(--Outfit);
     font-size: 14px;
     margin-bottom: 0;
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -78,6 +82,7 @@
   }
 
   .dropdown-title {
+    font-family: var(--Outfit);
     padding: 15px 15px;
     font-size: 18px;
     font-weight: bold;
@@ -108,6 +113,7 @@
   }  
   
   .get-started-btn {
+    font-family: var(--Outfit);
     background-color: #F36800;
     color: #fff;
     border: none;
