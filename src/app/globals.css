@@ -75,7 +75,7 @@ body {
 
 .container {
   max-width: 1794px;
-  width: 95%;
+  width: 80%;
   margin: auto;
   overflow: hidden;
   -webkit-text-size-adjust: 100% !important;
