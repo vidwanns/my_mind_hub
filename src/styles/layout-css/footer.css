@@ -1,7 +1,7 @@
 .footer {
     background-color: #02632E;
     color: white;
-    font-family: Arial, sans-serif;
+    font-family: var(--Outfit);
     font-size: 14px;
     padding: 20px 40px;
   }
@@ -10,7 +10,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* max-width: 1200px; */
     width: 100%;
     margin: 0 auto;
   }
@@ -45,6 +44,7 @@
   }
   
   .footer-links a {
+    font-family: var(--Outfit);
     color: white;
     text-decoration: none;
     transition: color 0.3s ease;
@@ -64,10 +64,12 @@
   
   .footer-rights span {
     font-size: 16px;
+    font-family: var(--Outfit);
   }
   
   .footer-credits {
     color: #d4f1d3;
     font-size: 16px;
+    font-family: var(--Outfit);
   }
   
