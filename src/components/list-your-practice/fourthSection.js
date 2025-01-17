@@ -6,6 +6,7 @@ import "../../styles/list-your-practice-css/fourthSection.css";
 const FourthSection = () => {
   return (
     <section className="List-fourth-section">
+      <div className="List-fourth-header-container">
       <div className="List-fourth-header">
         <h2 className="List-section-heading">
           Start with Our <span>Free Package</span>
@@ -60,6 +61,7 @@ const FourthSection = () => {
             <li>Priority Customer Support: Enjoy faster responses and support.</li>
           </ul>
         </div>
+      </div>
       </div>
     </section>
   );

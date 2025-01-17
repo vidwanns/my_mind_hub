@@ -1,116 +1,123 @@
 .List-fourth-section {
-    padding: 50px;
-    background-color: #f8f9f4;
-    color: #000;
-  }
-  
-  .List-fourth-header {
-    text-align: left;
-    margin-bottom: 30px;
-  }
-  
-  .List-section-heading {
-    font-size: 70px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .List-section-heading span {
-    color: #28a745; /* Green color for emphasis */
-  }
-  
-  .List-section-description {
-    font-size: 26px;
-    line-height: 32px;
-    width: 85%;
-  }
-  
-  .price-note {
-    font-size: 0.9rem;
-    color: #555;
-    margin-top: 10px;
-  }
-  
-  .package-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-  }
-  
-  .package-card {
-    flex: 1;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .free-package {
-    border: 2px solid #28a745; /* Green border for Free Package */
-  }
-  
-  .pro-package {
-    border: 2px solid #ff8c00; /* Orange border for Professional Package */
-  }
-  
-  .package-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 15px;
-  }
-  
-  .package-btn {
-    background-color: #28a745;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 1rem;
-    cursor: pointer;
-    margin: 10px 0 20px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .pro-package .package-btn {
-    background-color: #ff8c00;
-  }
-  
-  .package-btn:hover {
-    background-color: #02632e; /* Darker green for hover */
-  }
-  
-  .pro-package .package-btn:hover {
-    background-color: #e67e00; /* Darker orange for hover */
-  }
-  
-  .features-title {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .features-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .features-list li {
-    font-size: 0.9rem;
-    margin-bottom: 8px;
-    display: flex;
-    align-items: flex-start;
-  }
-  
-  .features-list li::before {
-    content: "✔";
-    color: #28a745; /* Green checkmark */
-    margin-right: 10px;
-    font-size: 1rem;
-  }
-  
-  .pro-package .features-list li::before {
-    color: #ff8c00; /* Orange checkmark for Professional Package */
-  }
+  padding: 50px;
+  background-color: #f8f9f4;
+  color: #000;
+}
+
+.List-fourth-header-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.List-fourth-header {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.List-section-heading {
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.List-section-heading span {
+  color: #28a745; /* Green color for emphasis */
+}
+
+.List-section-description {
+  font-size: 26px;
+  line-height: 32px;
+  width: 85%;
+}
+
+.price-note {
+  font-size: 18px;
+  color: #555;
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.package-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.package-card {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.free-package {
+  border: 2px solid #28a745; /* Green border for Free Package */
+}
+
+.pro-package {
+  border: 2px solid #ff8c00; /* Orange border for Professional Package */
+}
+
+.package-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.package-btn {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 10px 0 20px;
+  transition: background-color 0.3s ease;
+}
+
+.pro-package .package-btn {
+  background-color: #ff8c00;
+}
+
+.package-btn:hover {
+  background-color: #02632e; /* Darker green for hover */
+}
+
+.pro-package .package-btn:hover {
+  background-color: #e67e00; /* Darker orange for hover */
+}
+
+.features-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.features-list li {
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.features-list li::before {
+  content: "✔";
+  color: #28a745; /* Green checkmark */
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.pro-package .features-list li::before {
+  color: #ff8c00; /* Orange checkmark for Professional Package */
+}
