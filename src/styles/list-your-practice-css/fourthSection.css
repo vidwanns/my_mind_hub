@@ -21,7 +21,7 @@
 }
 
 .List-section-heading span {
-  color: #28a745; /* Green color for emphasis */
+  color: #28a745; 
 }
 
 .List-section-description {
@@ -46,20 +46,20 @@
 
 .package-card {
   flex: 1;
-  background-color: #fff;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
 }
 
 .free-package {
   border: 2px solid #28a745;
+  background-color: #FDF9F0;
 }
 
 .pro-package {
-  border: 2px solid #28a745; 
+  border: 2px solid #E7EEC0; 
+  background-color: #F6FAE2;
 }
 
 .package-title {
