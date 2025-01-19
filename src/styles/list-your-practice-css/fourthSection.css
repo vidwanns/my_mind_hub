@@ -55,11 +55,11 @@
 }
 
 .free-package {
-  border: 2px solid #28a745; /* Green border for Free Package */
+  border: 2px solid #28a745;
 }
 
 .pro-package {
-  border: 2px solid #ff8c00; /* Orange border for Professional Package */
+  border: 2px solid #28a745; 
 }
 
 .package-title {
@@ -81,7 +81,7 @@
 }
 
 .pro-package .package-btn {
-  background-color: #ff8c00;
+  background-color: #28a745;
 }
 
 .package-btn:hover {
@@ -89,7 +89,7 @@
 }
 
 .pro-package .package-btn:hover {
-  background-color: #e67e00; /* Darker orange for hover */
+  background-color: #02632e; /* Darker orange for hover */
 }
 
 .features-title {
@@ -108,16 +108,20 @@
   font-size: 0.9rem;
   margin-bottom: 8px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  position: relative;
+  padding-left: 24px; /* Space for the checkmark */
 }
 
 .features-list li::before {
-  content: "✔";
-  color: #28a745; /* Green checkmark */
-  margin-right: 10px;
-  font-size: 1rem;
-}
-
-.pro-package .features-list li::before {
-  color: #ff8c00; /* Orange checkmark for Professional Package */
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px; /* Adjust size of the checkmark */
+  height: 16px;
+  background-image: url("/images/list-your-practice/fourthSection/CheckMark.svg"); /* Update path */
+  background-size: cover;
+  background-repeat: no-repeat;
 }
