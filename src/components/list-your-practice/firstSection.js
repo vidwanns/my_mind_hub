@@ -18,11 +18,13 @@ const FirstSection = () => {
           <button className="join-btn">Join Us For Free</button>
         </div>
         <div className="list-image-section">
-          <img
-            src="/images/list-your-practice/firstSection/hi_girl.jpeg"
-            alt="Girl"
-            className="girl-image"
-          />
+          <div className="image-container">
+            <img
+              src="/images/list-your-practice/firstSection/hi_girl.jpeg"
+              alt="Girl"
+              className="girl-image"
+            />
+          </div>
           <img
             src="/images/list-your-practice/firstSection/sessions_overview.png"
             alt="Sessions Overview"

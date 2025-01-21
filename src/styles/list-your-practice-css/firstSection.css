@@ -65,7 +65,8 @@
   display: flex;
   align-items: center; 
   justify-content: center;
-  height: 100vh; 
+  width: 722px;
+  height: 754px; 
   max-width: 50%;
 }
 
@@ -80,28 +81,38 @@
   z-index: 1; 
 }
 
-.girl-image {
+.image-container {
   position: relative;
   z-index: 2;
   width: 722px;
   height: 754px;
   border-radius: 25px;
+  border: 5px solid #fff; 
+  overflow: hidden;
+}
+
+.girl-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  border: 5px solid #fff;
+  transform: scale(1.4) translateX(50px);
 }
 
 .sessions-overview {
   position: absolute;
-  bottom: 10%;
+  top: 20%;
   left: 50%;
   transform: translateX(-50%);
-  width: 70%; 
+  width: 100%; 
   z-index: 3;
 }
 
 .verified-users {
   position: absolute;
-  top: 370px;
+  top: 16%;
   left: 80%;
   background: #fff;
   padding: 15px 20px;
