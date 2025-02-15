@@ -13,33 +13,39 @@ const practitioners = [
 const SecondSection = () => {
   return (
     <section className="second-section">
-      <h2 className="second-section__heading">
-        Popular <span className="highlight">Practitioners & Concerns</span>
-      </h2>
+      {/* Background Image Layer */}
+      <div className="second-section__background"></div>
 
-      <div className="practitioner-grid">
-        {practitioners.map((item) => (
-          <div className="practitioner-item" key={item.id}>
-            <div className="practitioner-overlay">
-              <img
-                src={item.image}
-                alt={item.title}
-                className="practitioner-image"
-              />
-              <div className="practitioner-title-overlay">{item.title}</div>
+      {/* Content Layer */}
+      <div className="second-section__content">
+        <h2 className="second-section__heading">
+          Popular <span className="highlight">Practitioners & Concerns</span>
+        </h2>
+
+        <div className="practitioner-grid">
+          {practitioners.map((item) => (
+            <div className="practitioner-item" key={item.id}>
+              <div className="practitioner-overlay">
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  className="practitioner-image"
+                />
+                <div className="practitioner-title-overlay">{item.title}</div>
+              </div>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
 
-      <div className="partners-container">
-        <div className="partners">
-          <p>Mind Hub Directory Partners With</p>
-          <img
-            src="/images/home/secondSection/Australian.svg"
-            alt="Australian & New Zealand Mental Health Association"
-            className="partners-logo"
-          />
+        <div className="partners-container">
+          <div className="partners">
+            <p>Mind Hub Directory Partners With</p>
+            <img
+              src="/images/home/secondSection/Australian.svg"
+              alt="Australian & New Zealand Mental Health Association"
+              className="partners-logo"
+            />
+          </div>
         </div>
       </div>
     </section>

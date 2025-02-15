@@ -1,12 +1,33 @@
-/* Second Section Container */
+/* Main Section */
 .second-section {
-  background-color: #fdf9f3;
+  position: relative;
   padding: 40px 20px;
   text-align: center;
   font-family: var(--Outfit);
-  border-radius: 30px 30px 0px 0px;
+  border-radius: 30px 30px 0 0;
+  overflow: hidden;
 }
 
+/* Background Image with Opacity */
+.second-section__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("/images/secondSection/RectangleBG.png") no-repeat center center;
+  background-size: cover;
+  opacity: 0.1; 
+  z-index: 1;
+}
+
+/* Content Layer (above background) */
+.second-section__content {
+  position: relative;
+  z-index: 2;
+}
+
+/* Heading */
 .second-section__heading {
   font-family: var(--Outfit);
   font-size: 50px;
@@ -36,12 +57,14 @@
   max-width: 290px;
 }
 
+/* Practitioner Image Container */
 .practitioner-overlay {
   position: relative;
   border-radius: 12px;
   overflow: hidden;
 }
 
+/* Practitioner Image */
 .practitioner-image {
   display: block;
   width: 100%;
@@ -50,10 +73,25 @@
   transition: transform 0.3s ease;
 }
 
+/* Gradient Overlay on Practitioner Images */
+.practitioner-overlay::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(to top, black, transparent);
+  pointer-events: none;
+  border-radius: 12px;
+}
+
+/* Image Hover Effect */
 .practitioner-item:hover .practitioner-image {
   transform: scale(1.02);
 }
 
+/* Overlay Text */
 .practitioner-title-overlay {
   position: absolute;
   bottom: 30px;
@@ -66,9 +104,10 @@
   padding: 5px 10px;
   border-radius: 5px;
   text-align: center;
+  z-index: 3;
 }
 
-/* Partners Section */
+/* Partners Container */
 .partners-container {
   display: flex;
   justify-content: center;
@@ -101,4 +140,16 @@
 .partners-logo {
   width: auto;
   height: 100px;
+}
+
+/* Mobile Responsive Adjustments */
+@media only screen and (min-width: 355px) and (max-width: 600px) {
+  .second-section__heading {
+    font-size: 24px;
+    margin-top: 1rem;
+  }
+
+  .practitioner-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
