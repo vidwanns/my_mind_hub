@@ -13,10 +13,7 @@ const practitioners = [
 const SecondSection = () => {
   return (
     <section className="second-section">
-      {/* Background Image Layer */}
       <div className="second-section__background"></div>
-
-      {/* Content Layer */}
       <div className="second-section__content">
         <h2 className="second-section__heading">
           Popular <span className="highlight">Practitioners & Concerns</span>
