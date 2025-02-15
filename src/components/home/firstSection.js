@@ -4,8 +4,8 @@ import "../../styles/home-css/firstSection.css";
 const DropdownArrow = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="14"
-    height="14"
+    width="18"
+    height="18"
     viewBox="0 0 24 24"
     fill="none"
     stroke="currentColor"
@@ -44,11 +44,11 @@ const FirstSection = () => {
           Discover, book, and save your preferred practitioners for yourself or your loved ones.
         </p>
 
-        {/* Search Bar */}
+        {/* Mobile-Friendly Search Bar */}
         <div className="search-bar">
           <div className="search-bar__input custom-dropdown">
             <select className="input-field">
-              <option value="">Practitioners or Concerns</option>
+              <option value="">Practitioners</option>
               <option>Art Therapist</option>
               <option>Behavioral Therapist</option>
               <option>Clinical Psychologist</option>
@@ -61,14 +61,33 @@ const FirstSection = () => {
           </div>
 
           <div className="search-bar__input custom-dropdown">
-            <input type="text" placeholder="Suburb Or Postcode" className="input-field" />
+            <select className="input-field">
+              <option value="">Concerns</option>
+              <option>Anxiety</option>
+              <option>Depression</option>
+              <option>Relationship Issues</option>
+              <option>Trauma</option>
+            </select>
+            <span className="dropdown-arrow">
+              <DropdownArrow />
+            </span>
+          </div>
+
+          <div className="search-bar__input custom-dropdown">
+            <select className="input-field">
+              <option value="">Country</option>
+              <option>USA</option>
+              <option>UK</option>
+              <option>Australia</option>
+              <option>Canada</option>
+            </select>
             <span className="dropdown-arrow">
               <DropdownArrow />
             </span>
           </div>
 
           <button className="search-button">
-            <SearchButtonArrow />
+            Find Therapist
           </button>
         </div>
       </div>

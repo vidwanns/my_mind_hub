@@ -1,9 +1,16 @@
-/* Header Styles */
 .header {
   position: fixed;
   top: 60px;
   width: 100%;
   z-index: 100;
+}
+@media only screen and (min-width: 355px) and (max-width: 600px) {
+  .header {
+    position: relative;
+    top: 50px;
+    width: 100%;
+    z-index: 100;
+  }
 }
 .container {
   border-radius: 50px; 
@@ -14,6 +21,11 @@
   padding: 20px 10px;
   background: rgba(225, 225, 225, 0.8);
   backdrop-filter: blur(20px);
+}
+@media only screen and (min-width: 355px) and (max-width: 600px) {
+  .container {
+    width: 95%;
+  }
 }
 
 .header__left {
@@ -32,10 +44,20 @@
   background-color: #727272;
   margin: 0 30px;
 }
+@media only screen and (min-width: 355px) and (max-width: 600px) {
+.vertical-line {
+  display: none;
+}
+}
 
 .header__nav {
   display: flex;
   gap: 20px;
+}
+@media only screen and (min-width: 355px) and (max-width: 600px) {
+  .header__nav {
+    display: none;
+  }
 }
 
 .nav-link {
@@ -60,6 +82,11 @@
   font-family: var(--Outfit);
   font-size: 21px;
   transition: background-color 0.3s ease;
+}
+@media only screen and (min-width: 355px) and (max-width: 600px) {
+.header__cta .find-therapist-button {
+  display: none;
+}
 }
 
 .find-therapist-button:hover {
