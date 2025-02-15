@@ -75,6 +75,7 @@
     border-radius: 10px;
     border: 1.5px solid #01652f;
     padding: 12px 16px;
+    font-family: var(--Outfit);
     font-size: 18px;
     color: #333;
     appearance: none;
