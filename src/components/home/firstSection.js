@@ -1,37 +1,20 @@
 import React from "react";
 import "../../styles/home-css/firstSection.css";
 
-const DropdownArrow = () => (
+const DropdownArrow = ({ isOpen }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="18"
-    height="18"
+    width="28"
+    height="28"
     viewBox="0 0 24 24"
     fill="none"
     stroke="currentColor"
     strokeWidth="2"
     strokeLinecap="round"
     strokeLinejoin="round"
-    className="dropdown-icon"
+    className={`dropdown-icon ${isOpen ? "rotate-arrow" : ""}`}
   >
     <path d="M6 9l6 6 6-6" />
-  </svg>
-);
-
-const SearchButtonArrow = () => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    className="search-button-icon"
-  >
-    <path d="M5 12h14M12 5l7 7-7 7" />
   </svg>
 );
 
@@ -44,7 +27,7 @@ const FirstSection = () => {
           Discover, book, and save your preferred practitioners for yourself or your loved ones.
         </p>
 
-        {/* Mobile-Friendly Search Bar */}
+        {/* Search Bar */}
         <div className="search-bar">
           <div className="search-bar__input custom-dropdown">
             <select className="input-field">
@@ -85,10 +68,11 @@ const FirstSection = () => {
               <DropdownArrow />
             </span>
           </div>
+        </div>
 
-          <button className="search-button">
-            Find Therapist
-          </button>
+        {/* Find Therapist Button - Below the Search Bars */}
+        <div className="button-container">
+          <button className="search-button-desktop">Find Therapist</button>
         </div>
       </div>
     </section>
