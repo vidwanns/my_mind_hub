@@ -36,7 +36,7 @@ const SecondSection = () => {
 
         <div className="partners-container">
           <div className="partners">
-            <p>Mind Hub Directory Partners With</p>
+            <p>My Mind Hub Partners With</p>
             <img
               src="/images/home/secondSection/Australian.svg"
               alt="Australian & New Zealand Mental Health Association"
