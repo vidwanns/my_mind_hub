@@ -9,7 +9,7 @@
 
 .section-subheading {
   font-size: 20px;
-  color: #00703c;
+  color: #02652F;
   margin-bottom: 10px;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .sixth_cta-button {
-  background-color: #00703c;
+  background-color: #02652F;
   color: white;
   border: none;
   border-radius: 25px;
@@ -60,7 +60,7 @@
 }
 
 .info-card:hover {
-  border: 1px solid #00703c;
+  border: 1px solid #02652F;
 }
 
 .card-image {

@@ -21,7 +21,7 @@ const Header = () => {
             <a href="#contact" className="nav-link">
               Contact
             </a>
-            <a href="#list" className="nav-link">
+            <a href="/list-your-practice" className="nav-link">
               List Your Practice
             </a>
           </nav>

@@ -35,7 +35,7 @@
 .content-text h3 {
   font-family: var(--Outfit);
   font-size: 20px;
-  color: #00703c;
+  color: #02652F;
   margin-bottom: 10px;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .content-text h2 .highlight {
-  color: #00703c;
+  color: #02652F;
 }
 
 .content-text p {
@@ -65,7 +65,7 @@
 .fifth_cta-button {
   font-family: var(--Outfit);
   margin-top: 60px;
-  background-color: #00703c;
+  background-color: #02652F;
   color: white;
   border: none;
   border-radius: 45px;

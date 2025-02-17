@@ -2,11 +2,31 @@ import React from "react";
 import "../../styles/home-css/secondSection.css";
 
 const practitioners = [
-  { id: 1, title: "Psychologist", image: "/images/home/secondSection/psychologist.png" },
-  { id: 2, title: "Marriage & Family", image: "/images/home/secondSection/marriage.png" },
-  { id: 3, title: "Child Psychologist", image: "/images/home/secondSection/child.png" },
-  { id: 4, title: "Counselor", image: "/images/home/secondSection/counselor.png" },
-  { id: 5, title: "Psychiatrist", image: "/images/home/secondSection/psychiatrist.png" },
+  {
+    id: 1,
+    title: "Psychologist",
+    image: "/images/home/secondSection/psychologist.png",
+  },
+  {
+    id: 2,
+    title: "Marriage & Family",
+    image: "/images/home/secondSection/marriage.png",
+  },
+  {
+    id: 3,
+    title: "Child Psychologist",
+    image: "/images/home/secondSection/child.png",
+  },
+  {
+    id: 4,
+    title: "Counselor",
+    image: "/images/home/secondSection/counselor.png",
+  },
+  {
+    id: 5,
+    title: "Psychiatrist",
+    image: "/images/home/secondSection/psychiatrist.png",
+  },
   { id: 6, title: "Life Coach", image: "/images/home/secondSection/life.png" },
 ];
 
@@ -34,6 +54,7 @@ const SecondSection = () => {
           ))}
         </div>
 
+        {/* Partners Section */}
         <div className="partners-container">
           <div className="partners">
             <p>My Mind Hub Partners With</p>
@@ -43,6 +64,20 @@ const SecondSection = () => {
               className="partners-logo"
             />
           </div>
+        </div>
+
+        {/* New Section Below Partners */}
+        <div className="provider-section">
+          <p className="provider-text">
+            Are you a counsellor, psychiatrist, life coach, psychologist,
+            therapist or allied mental health provider?
+          </p>
+          <button className="provider-button">
+            <span className="desktop-text">
+              List Your Practice On My Mind Hub
+            </span>
+            <span className="mobile-text">List Your Practice</span>
+          </button>
         </div>
       </div>
     </section>

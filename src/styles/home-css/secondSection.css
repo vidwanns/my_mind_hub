@@ -34,7 +34,7 @@
 }
 
 .highlight {
-  color: #00703c;
+  color: #02652F;
 }
 
 .practitioner-grid {
@@ -134,6 +134,57 @@
   height: 100px;
 }
 
+.provider-section {
+  background-color: #01652f;
+  border-radius: 12px;
+  padding: 25px;
+  margin-top: 30px;
+  text-align: center;
+  width: 90%;
+  height: 347px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1397px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.provider-text {
+  width: 90%;
+  color: white;
+  font-size: 34px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  font-family: var(--Outfit);
+}
+
+.provider-button {
+  background-color: white;
+  color: #01652f;
+  border: none;
+  padding: 25px 35px;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 45px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.desktop-text {
+  display: inline;
+}
+
+/* Hide full text and show short text on mobile */
+.mobile-text {
+  display: none;
+}
+
+.provider-button:hover {
+  background-color: #fcf5e8;
+}
+
 @media only screen and (min-width: 355px) and (max-width: 600px) {
   .second-section__heading {
     font-size: 24px;
@@ -153,7 +204,7 @@
     flex-direction: column;
     gap: 0;
     margin-top: 20px;
-    padding: 15px;
+    padding: 0;
     width: 100%;
     box-shadow: none;
     background-color: transparent;
@@ -161,11 +212,33 @@
 
   .partners p {
     font-size: 21px;
-    margin-bottom: 10px;
     font-weight: 500;
   }
 
   .partners-logo {
     height: 60px;
   }
+
+  .desktop-text {
+    display: none;
+  }
+  .mobile-text {
+    display: inline;
+  }
+
+  .provider-section {
+    padding: 15px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.provider-text {
+    font-size: 24px;
+    width: 95%;
+}
+
+.provider-button {
+    padding: 12px 25px;
+    font-size: 18px;
+}
 }

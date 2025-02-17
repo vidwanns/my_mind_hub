@@ -1,17 +1,11 @@
+/* Desktop CSS */
 .header {
   position: fixed;
-  top: 60px;
+  top: 30px;
   width: 100%;
   z-index: 100;
 }
-@media only screen and (min-width: 355px) and (max-width: 600px) {
-  .header {
-    position: relative;
-    top: 50px;
-    width: 100%;
-    z-index: 100;
-  }
-}
+
 .container {
   border-radius: 50px; 
   height: 70px;
@@ -22,11 +16,6 @@
   background: rgba(225, 225, 225, 0.8);
   backdrop-filter: blur(20px);
 }
-@media only screen and (min-width: 355px) and (max-width: 600px) {
-  .container {
-    width: 95%;
-  }
-}
 
 .header__left {
   display: flex;
@@ -36,6 +25,8 @@
 .header__logo img {
   width: 100%;
   height: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .vertical-line {
@@ -44,20 +35,10 @@
   background-color: #727272;
   margin: 0 30px;
 }
-@media only screen and (min-width: 355px) and (max-width: 600px) {
-.vertical-line {
-  display: none;
-}
-}
 
 .header__nav {
   display: flex;
   gap: 20px;
-}
-@media only screen and (min-width: 355px) and (max-width: 600px) {
-  .header__nav {
-    display: none;
-  }
 }
 
 .nav-link {
@@ -74,21 +55,41 @@
 }
 
 .header__cta .find-therapist-button {
-  background-color: #00703c;
+  background-color: #02652F;
   color: white;
   text-decoration: none;
-  padding: 18px 20px;
+  padding: 15px 25px;
   border-radius: 50px;
   font-family: var(--Outfit);
   font-size: 21px;
   transition: background-color 0.3s ease;
 }
-@media only screen and (min-width: 355px) and (max-width: 600px) {
-.header__cta .find-therapist-button {
-  display: none;
-}
-}
 
 .find-therapist-button:hover {
   background-color: #00582d;
+}
+
+@media only screen and (min-width: 355px) and (max-width: 600px) {
+  .header {
+    position: relative;
+    top: 30px;
+    width: 100%;
+    z-index: 100;
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  .vertical-line {
+    display: none;
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  .header__cta .find-therapist-button {
+    display: none;
+  }
 }

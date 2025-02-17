@@ -9,7 +9,7 @@
 /* Heading */
 .fourth-section__heading {
   font-size: 50px;
-  color: #00703c;
+  color: #02652F;
   margin-bottom: 3rem;
   margin-top: 3rem;
 }
@@ -40,7 +40,7 @@
 }
 
 .licensed_practitioner-card:hover {
-  border: 1px solid #00703c;
+  border: 1px solid #02652F;
 }
 
 .licensed_practitioner-details {
@@ -79,7 +79,7 @@
 
 /* Button */
 .search-therapists-button {
-  background-color: #00703c;
+  background-color: #02652F;
   color: white;
   border: none;
   border-radius: 45px;

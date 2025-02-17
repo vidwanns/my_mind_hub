@@ -7,7 +7,7 @@
 
 .eighth_section-subheading {
   font-size: 20px;
-  color: #00703c;
+  color: #02652F;
   margin-bottom: 10px;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .eighth_section-heading .highlight {
-  color: #00703c;
+  color: #02652F;
 }
 
 .articles-grid {
@@ -45,7 +45,7 @@
 }
 
 .article-card:hover {
-  border: 1px solid #00703c;
+  border: 1px solid #02652F;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
