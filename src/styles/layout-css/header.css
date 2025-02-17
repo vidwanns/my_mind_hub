@@ -69,6 +69,13 @@
   background-color: #00582d;
 }
 
+
+@media only screen and (max-width: 1700px) {
+  .container {
+    width: 95%;
+  }
+}
+
 @media only screen and (min-width: 355px) and (max-width: 600px) {
   .header {
     position: relative;
