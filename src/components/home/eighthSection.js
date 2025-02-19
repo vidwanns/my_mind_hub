@@ -31,10 +31,10 @@ const articles = [
 const EighthSection = () => {
   return (
     <section className="eighth-section">
-      <h3 className="eighth_section-subheading">Blogs</h3>
-      <h2 className="eighth_section-heading">
+      <p className="eighth_section-subheading">Blogs</p>
+      <p className="eighth_section-heading">
         Learn With Our <span className="highlight">Articles</span>
-      </h2>
+      </p>
 
       <div className="articles-grid">
         {articles.map((article) => (
@@ -47,7 +47,7 @@ const EighthSection = () => {
               />
             </div>
             <div className="article-content">
-              <h3 className="article-title">{article.title}</h3>
+              <p className="article-title">{article.title}</p>
               <p className="article-description">{article.description}</p>
             </div>
           </div>

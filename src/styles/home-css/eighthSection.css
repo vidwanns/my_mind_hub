@@ -13,6 +13,7 @@
 
 .eighth_section-heading {
   font-size: 50px;
+  font-weight: bold;
   color: #333;
   margin-bottom: 40px;
 }
@@ -35,7 +36,7 @@
   background-color: white;
   border-radius: 15px;
   border: 1px solid #01652f4d;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
   overflow: hidden;
   text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -46,7 +47,7 @@
 
 .article-card:hover {
   border: 1px solid #02652f;
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); */
 }
 
 .article-image-container {
