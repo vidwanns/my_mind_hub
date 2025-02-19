@@ -34,7 +34,7 @@
 }
 
 .highlight {
-  color: #02652F;
+  color: #408556;
 }
 
 .practitioner-grid {
@@ -92,12 +92,14 @@
   transform: translateX(-50%);
   color: white;
   font-family: var(--Outfit);
-  font-size: 1rem;
+  font-size: 23px;
+  line-height: 23px;
   font-weight: 500;
   padding: 5px 10px;
   border-radius: 5px;
   text-align: center;
   z-index: 3;
+  width: 100%;
 }
 
 .partners-container {
@@ -184,6 +186,46 @@
   background-color: #fcf5e8;
 }
 
+@media only screen and (max-width: 1700px) {
+  .second-section__heading {
+    font-size: 32px;
+  }
+  .practitioner-grid {
+    grid-gap: 20px;
+    max-width: 680px;
+  }
+  .practitioner-title-overlay {
+    bottom: 15px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .partners {
+    margin-top: 0;
+    width: 100%;
+    gap: 20px;
+  }
+  .partners p {
+    font-size: 20px;
+  }
+  .partners-logo {
+    height: 60px;
+  }
+  .provider-section {
+    padding: 15px;
+    width: 85%;
+    margin-top: 50px;
+    height: 270px;
+  }
+  .provider-text {
+    font-size: 24px;
+    width: 80%;
+  }
+  .provider-button {
+    padding: 18px 30px;
+    font-size: 18px;
+  }
+}
+
 @media only screen and (min-width: 355px) and (max-width: 600px) {
   .second-section__heading {
     font-size: 24px;
@@ -228,15 +270,15 @@
     padding: 15px;
     width: 100%;
     margin-top: 50px;
-}
+  }
 
-.provider-text {
+  .provider-text {
     font-size: 24px;
     width: 95%;
-}
+  }
 
-.provider-button {
+  .provider-button {
     padding: 12px 25px;
     font-size: 18px;
-}
+  }
 }

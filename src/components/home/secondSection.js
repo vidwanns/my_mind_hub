@@ -9,7 +9,7 @@ const practitioners = [
   },
   {
     id: 2,
-    title: "Marriage & Family",
+    title: "Marriage & Family Therapist",
     image: "/images/home/secondSection/marriage.png",
   },
   {
@@ -35,9 +35,8 @@ const SecondSection = () => {
     <section className="second-section">
       <div className="second-section__background"></div>
       <div className="second-section__content">
-        <h2 className="second-section__heading">
-          Popular <span className="highlight">Practitioners & Concerns</span>
-        </h2>
+        <p className="second-section__heading">
+        <span className="lighter-text">Popular</span> <strong><span className="highlight">Practitioners & Concerns</span></strong>        </p>
 
         <div className="practitioner-grid">
           {practitioners.map((item) => (
@@ -57,7 +56,7 @@ const SecondSection = () => {
         {/* Partners Section */}
         <div className="partners-container">
           <div className="partners">
-            <p>My Mind Hub Partners With</p>
+            <p><strong>My Mind Hub Partners With</strong></p>
             <img
               src="/images/home/secondSection/Australian.svg"
               alt="Australian & New Zealand Mental Health Association"
