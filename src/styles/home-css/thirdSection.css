@@ -37,9 +37,8 @@
   object-fit: contain;
 }
 
-/* Insurance Info Box */
 .insurance-info {
-  background-color: rgba(0, 112, 60, 0.7); /* Use semi-transparent background */
+  background-color: rgba(1, 101, 47, 0.80);
   color: white;
   padding: 20px 20px;
   border-radius: 30px;
@@ -55,19 +54,36 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-  backdrop-filter: blur(10px); /* Adjust blur intensity */
-  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  backdrop-filter: blur(10px); 
 }
 
-.insurance-info h2 {
-  font-family: var(--Outfit);
-  font-size: 38px;
-  margin-bottom: 10px;
+.insurance-main-text {
+  font-size: 26px; 
+  font-weight: bold; 
+  letter-spacing: 2px;
 }
 
-.insurance-info p {
-  font-family: var(--Outfit);
-  font-size: 26px;
-  margin: 0;
+.insurance-sub-text {
+  font-size: 20px; 
+  font-weight: normal;
+  color: #ffffff; 
+}
+
+@media only screen and (max-width: 1700px) {
+  .grid-container {
+    width: 85%;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  .grid-item {
+    padding: 25px;
+    width: 175px;
+    height: 125px;
+  }
+  .insurance-info {
+    width: 500px;
+    height: 170px;
+    max-width: 600px;
+    border-radius: 20px;
+  }
 }

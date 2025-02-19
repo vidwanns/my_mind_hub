@@ -39,8 +39,8 @@ const ThirdSection = () => {
         ))}
       </div>
       <div className="insurance-info">
-        <h2>500+ Insurance Plans Accepted</h2>
-        <p>We accept most major insurances</p>
+        <p className="insurance-main-text">500+ Insurance Plans Accepted</p>
+        <p className="insurance-sub-text">We accept most major insurances</p>
       </div>
     </section>
   );
