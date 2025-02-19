@@ -63,9 +63,9 @@ const licensed_practitioners = [
 const FourthSection = () => {
   return (
     <section className="fourth-section">
-      <h2 className="fourth-section__heading">
+      <p className="fourth-section__heading">
         Meet the Mind Hub Directory licensed practitioners
-      </h2>
+      </p>
 
       <div className="licensed_practitioner-grid">
         {licensed_practitioners.map((practitioner) => (
@@ -76,7 +76,9 @@ const FourthSection = () => {
               className="licensed_practitioner-image"
             />
             <div className="licensed_practitioner-details">
-              <h3 className="licensed_practitioner-name">{practitioner.name}</h3>
+              <p className="licensed_practitioner-name">
+                <strong>{practitioner.name}</strong>
+              </p>
               <p className="licensed_practitioner-specialty">
                 {practitioner.specialty} | {practitioner.experience}
               </p>
