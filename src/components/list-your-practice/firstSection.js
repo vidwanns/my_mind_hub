@@ -35,10 +35,14 @@ const FirstSection = () => {
               <span className="user-count">50k+</span>
               <span className="user-label">Verified Users</span>
             </div>
-            <div className="user-icon">✅</div>
+            <div className="user-icon">
+              <img src="/images/list-your-practice/firstSection/userIcon.svg" alt="User Icon" />
+            </div>
           </div>
           <div className="total-earnings">
-            <div className="earnings-icon">💰</div>
+            <div className="earnings-icon">
+              <img src="/images/list-your-practice/firstSection/earnings-label.svg" alt="User Icon" />
+            </div>
             <div className="earnings-text">
               <span className="earnings-label">Total Earnings</span>
               <span className="earnings-value">$180,000</span>

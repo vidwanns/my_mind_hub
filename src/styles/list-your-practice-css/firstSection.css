@@ -1,6 +1,6 @@
 .list-first-section {
   position: relative;
-  height: 1127px; 
+  height: 1127px;
   background: #dbdbdb;
   overflow: hidden;
   top: 0;
@@ -14,7 +14,7 @@
   margin: 0 auto;
   width: 90%;
   position: relative;
-  z-index: 2; 
+  z-index: 2;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -22,14 +22,17 @@
 .list-content {
   flex: 1;
   max-width: 43%;
+  position: relative;
+  bottom: 5%;
 }
 
 .list-heading {
   font-family: var(--Outfit);
   font-size: 70px;
   font-weight: bold;
-  color: #0b6632;
+  color: #01652f;
   margin-bottom: 20px;
+  width: 90%;
 }
 
 .list-description {
@@ -38,6 +41,7 @@
   color: #555;
   margin-bottom: 20px;
   line-height: 32px;
+  width: 97%;
 }
 
 .join-btn {
@@ -62,22 +66,24 @@
   flex: 1;
   position: relative;
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
   width: 722px;
-  height: 754px; 
+  height: 754px;
   max-width: 50%;
+  right: 5%;
 }
 
 .green-background {
   position: absolute;
   top: 0;
   right: 0;
-  width: 741px; 
-  height: 1127px; 
-  background: url('/images/list-your-practice/firstSection/green_BG.png') no-repeat center center;
+  width: 741px;
+  height: 1127px;
+  background: url("/images/list-your-practice/firstSection/green_BG.png")
+    no-repeat center center;
   background-size: cover;
-  z-index: 1; 
+  z-index: 1;
 }
 
 .image-container {
@@ -86,14 +92,14 @@
   width: 722px;
   height: 754px;
   border-radius: 25px;
-  border: 5px solid #fff; 
+  border: 5px solid #fff;
   overflow: hidden;
 }
 
 .girl-image {
   position: absolute;
-  top: 0;
-  left: 0;
+  bottom: 20px;
+  left: 40px;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -105,14 +111,14 @@
   top: 20%;
   left: 50%;
   transform: translateX(-50%);
-  width: 100%; 
+  width: 100%;
   z-index: 3;
 }
 
 .verified-users {
   position: absolute;
-  top: 16%;
-  left: 80%;
+  top: 12%;
+  left: 78%;
   background: #fff;
   padding: 15px 20px;
   border-radius: 50px;
@@ -120,12 +126,14 @@
   z-index: 4;
   display: flex;
   align-items: center;
-  gap: 40px; 
+  gap: 34px;
+  width: 273px;
+  height: 95px;
 }
 
 .user-text {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   text-align: left;
   margin-left: 10px;
 }
@@ -134,25 +142,27 @@
   font-family: var(--Outfit);
   font-size: 36px;
   font-weight: bold;
-  color: #f39c12;
+  color: #000000;
 }
 
 .user-label {
   font-family: var(--Outfit);
-  font-size: 0.9rem;
-  color: #555;
-  width: 100px;
+  font-size: 20px;
+  color: #000000;
+  width: 125px;
 }
 
 .user-icon {
-  font-size: 2rem;
-  font-family: var(--Outfit);
-  color: #0b6632;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
 }
 
 .total-earnings {
   position: absolute;
-  bottom: 20%;
+  bottom: 15%;
   right: 80%;
   background: #fff;
   padding: 15px 20px;
@@ -161,35 +171,37 @@
   z-index: 4;
   display: flex;
   align-items: center;
-  gap: 15px; 
+  gap: 15px;
 }
 
 .earnings-icon {
-  font-size: 2rem;
-  font-family: var(--Outfit);
-  color: #f39c12;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
 }
 
 .earnings-text {
   display: flex;
-  flex-direction: column; 
-  text-align: left; 
+  flex-direction: column;
+  text-align: left;
+  margin-right: 50px;
 }
 
 .earnings-label {
   font-family: var(--Outfit);
-  font-size: 0.9rem;
-  margin-bottom: 5px;
-  color: #555;
+  font-size: 20px;
+  color: #000000;
+  width: 130px;
 }
 
 .earnings-value {
   font-family: var(--Outfit);
   font-size: 36px;
   font-weight: bold;
-  color: #0b6632;
+  color: #000000;
 }
 
 @media only screen and (min-width: 355px) and (max-width: 600px) {
-
 }
