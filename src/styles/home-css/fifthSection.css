@@ -13,7 +13,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #C4DC3F26;
+  background-color: #c4dc3f26;
   border-radius: 16px;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -32,14 +32,15 @@
   padding-top: 0;
 }
 
-.content-text h3 {
+.content-heading {
   font-family: var(--Outfit);
   font-size: 20px;
-  color: #02652F;
+  color: #02652f;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
-.content-text h2 {
+.content-subheading {
   font-family: var(--Outfit);
   font-size: 44px;
   font-weight: 700;
@@ -50,11 +51,11 @@
   margin-top: 20px;
 }
 
-.content-text h2 .highlight {
-  color: #02652F;
+.content-subheading .highlight {
+  color: #02652f;
 }
 
-.content-text p {
+.content-description {
   font-family: var(--Outfit);
   font-size: 20px;
   color: #555;
@@ -62,10 +63,11 @@
   margin-top: 30px;
 }
 
+/* CTA Button */
 .fifth_cta-button {
   font-family: var(--Outfit);
   margin-top: 60px;
-  background-color: #02652F;
+  background-color: #02652f;
   color: white;
   border: none;
   border-radius: 45px;
@@ -79,6 +81,7 @@
   background-color: #00582d;
 }
 
+/* Image Styling */
 .content-image_Boy {
   flex: 1;
   display: flex;
@@ -94,15 +97,111 @@
 }
 
 .content-image_Girl {
-    flex: 1;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.content-image_Girl img {
+  height: 660px;
+  width: 595px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 1700px) {
+  .content-heading {
+    font-size: 18px;
   }
-  
+  .content-subheading {
+    font-size: 32px;
+    width: 80%;
+    margin-top: 10px;
+  }
+  .content-description {
+    font-size: 16px;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .fifth_cta-button {
+    font-size: 18px;
+    padding: 12px 20px;
+  }
+  .content-block {
+    width: 85%;
+    height: auto;
+    padding: 20px;
+  }
+  .content-image_Boy img {
+    width: 100%;
+    height: auto;
+  }
+.content-image_Girl img {
+    width: 100%;
+    height: auto;
+  }
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+  .content-block {
+    flex-direction: column;
+    height: auto;
+    width: 95%;
+    padding: 30px;
+  }
+
+  .content-image_Boy img,
   .content-image_Girl img {
-    height: 660px;
-    width: 595px;
-    border-radius: 12px;
-    object-fit: cover;
+    width: 100%;
+    height: auto;
   }
+
+  .content-text {
+    text-align: center;
+  }
+
+  .fifth_cta-button {
+    width: 100%;
+    max-width: 250px;
+    margin: 30px auto 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .content-subheading {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .content-description {
+    font-size: 16px;
+  }
+
+  .fifth_cta-button {
+    font-size: 18px;
+    padding: 12px 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .content-heading {
+    font-size: 18px;
+  }
+
+  .content-subheading {
+    font-size: 24px;
+  }
+
+  .content-description {
+    font-size: 14px;
+  }
+
+  .fifth_cta-button {
+    font-size: 16px;
+    padding: 10px 18px;
+  }
+}
