@@ -7,7 +7,7 @@
 
 .eighth_section-subheading {
   font-size: 20px;
-  color: #02652F;
+  color: #02652f;
   margin-bottom: 10px;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .eighth_section-heading .highlight {
-  color: #02652F;
+  color: #02652f;
 }
 
 .articles-grid {
@@ -45,7 +45,7 @@
 }
 
 .article-card:hover {
-  border: 1px solid #02652F;
+  border: 1px solid #02652f;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -82,4 +82,33 @@
   line-height: 21px;
   color: #666;
   line-height: 1.6;
+}
+
+@media only screen and (max-width: 1700px) {
+  .articles-grid {
+    width: 85%;
+    padding: 0 20px;
+  }
+
+  .article-card {
+    width: 100%;
+    height: auto;
+  }
+
+  .article-content {
+    padding: 20px 0px;
+  }
+
+  .article-title {
+    font-size: 16px;
+  }
+
+  .article-description {
+    font-size: 12px;
+  }
+
+  .article-image-container {
+    width: 100%;
+    margin: auto;
+  }
 }
