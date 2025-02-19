@@ -1,6 +1,6 @@
 /* Fourth Section Container */
 .fourth-section {
-  background-color: #fdf9f3;
+  background-color: #FDF9F0;
   padding: 40px 20px;
   text-align: center;
   font-family: var(--Outfit);
@@ -28,7 +28,7 @@
   background-color: white;
   border: 1px solid #01652F4D;
   border-radius: 25px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
   display: flex;
   flex-direction: column; 
   height: 402px;
@@ -77,21 +77,20 @@
   padding-top: 0;
 }
 
-/* Button */
 .search-therapists-button {
   background-color: #02652F;
   color: white;
   border: none;
   border-radius: 45px;
-  padding: 20px 25px;
+  padding: 15px 25px;
   font-family: var(--Outfit);
   font-size: 21px;
   cursor: pointer;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
   transition: background-color 0.3s ease;
 }
 
 .search-therapists-button:hover {
-  background-color: #00582d;
+  background-color: #01652F;
 }

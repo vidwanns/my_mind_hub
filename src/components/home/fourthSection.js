@@ -85,7 +85,7 @@ const FourthSection = () => {
         ))}
       </div>
 
-      <button className="search-therapists-button">Search Therapists</button>
+      <button className="search-therapists-button">View All Therapists</button>
     </section>
   );
 };

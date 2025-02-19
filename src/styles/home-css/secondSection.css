@@ -113,12 +113,11 @@
   align-items: center;
   justify-content: center;
   gap: 40px;
-  background-color: white;
+  background-color: transparent;
   border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   width: 1028px;
-  margin-top: 120px;
+  margin-top: 40px;
 }
 
 .partners p {
@@ -207,7 +206,6 @@
     padding: 0;
     width: 100%;
     box-shadow: none;
-    background-color: transparent;
   }
 
   .partners p {
