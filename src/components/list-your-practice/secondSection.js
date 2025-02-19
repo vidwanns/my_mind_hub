@@ -5,17 +5,22 @@ const SecondSection = () => {
   return (
     <section className="second-section">
       <div className="content">
-        <h2 className="section-heading">Why Choose My Mind Hub?</h2>
-        <p className="section-description">
+        <h2 className="secondSection-heading">Why Choose My Mind Hub?</h2>
+        <p className="second-section-description">
           Many mental health websites exist, but we're Australian-owned and
-          offer free advertising, so you won’t worry about your budget. We
-          reach a broad audience through global presentations and partnerships
-          with trusted organizations. My Mind Hub connects practitioners with
-          clients seeking support, allowing reviews before GP referrals.
+          offer free advertising, so you won’t worry about your budget. We reach
+          a broad audience through global presentations and partnerships with
+          trusted organizations. My Mind Hub connects practitioners with clients
+          seeking support, allowing reviews before GP referrals.
         </p>
         <div className="features">
           <div className="feature">
-            <div className="icon">💼</div>
+            <div className="Expand-icon">
+              <img
+                src="/images/list-your-practice/secondSection/Expand.svg"
+                alt="User Icon"
+              />
+            </div>
             <div>
               <h3>Expand Your Practice</h3>
               <p>
@@ -24,7 +29,12 @@ const SecondSection = () => {
             </div>
           </div>
           <div className="feature">
-            <div className="icon">📋</div>
+            <div className="Simplify-icon">
+              <img
+                src="/images/list-your-practice/secondSection/Simplify.svg"
+                alt="User Icon"
+              />
+            </div>
             <div>
               <h3>Simplify Your Work</h3>
               <p>
@@ -34,7 +44,12 @@ const SecondSection = () => {
             </div>
           </div>
           <div className="feature">
-            <div className="icon">🌟</div>
+            <div className="Difference-icon">
+              <img
+                src="/images/list-your-practice/secondSection/Difference.svg"
+                alt="User Icon"
+              />
+            </div>
             <div>
               <h3>Make a Difference</h3>
               <p>

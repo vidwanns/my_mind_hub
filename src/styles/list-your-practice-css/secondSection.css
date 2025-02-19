@@ -11,30 +11,34 @@
   max-width: 60%;
 }
 
-.section-heading {
+.secondSection-heading {
   font-family: var(--Outfit);
   font-size: 70px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
-.section-description {
+.second-section-description {
   font-family: var(--Outfit);
   font-size: 26px;
   line-height: 1.6;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
+  width: 90%;
+  font-weight: lighter;
+  opacity: 0.8;
 }
 
 .features {
   display: flex;
   flex-direction: column;
   gap: 50px;
-  width: 80%;
+  width: 85%;
 }
 
 .feature {
   display: flex;
-  align-items: center;
-  gap: 15px;
+  align-items: flex-start;
+  gap: 16px;
 }
 
 .feature .icon {
@@ -55,12 +59,21 @@
   margin: 0;
 }
 
+.Expand-icon,
+.Simplify-icon,
+.Difference-icon {
+  margin-top: 5px;
+}
+
+
 .image-section {
   display: flex;
   justify-content: center;
 }
 
 .mobile-image {
+  position: relative;
   width: 100%;
   height: auto;
+  left: 2%;
 }
