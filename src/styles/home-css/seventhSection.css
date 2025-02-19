@@ -1,110 +1,150 @@
 .seventh-section {
-    background-color: #fdfcf7;
-    padding: 100px 20px;
-    text-align: center;
-    font-family: var(--Outfit);
-    overflow: hidden;
+  background-color: #fdfcf7;
+  padding: 100px 20px;
+  text-align: center;
+  font-family: var(--Outfit);
+  overflow: hidden;
+}
+
+/* Updated styles for replaced heading tags */
+.section-subheading {
+  font-size: 20px;
+  color: #02652f;
+  margin-bottom: 10px;
+}
+
+.section-heading {
+  font-size: 60px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.section-heading .highlight {
+  color: #02652f;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-row-container {
+  position: relative;
+}
+
+.carousel-row {
+  display: flex;
+  animation: scroll 60s linear infinite;
+  width: calc(900px * 6);
+}
+
+.carousel-row-container:first-child {
+  margin-left: -500px;
+}
+
+.carousel-row.reverse {
+  animation: scroll-reverse 60s linear infinite;
+}
+
+.review-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #eaf9e8;
+  border-radius: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 14px;
+  padding: 20px;
+  flex: 0 0 900px;
+  gap: 20px;
+}
+
+.review-image-container {
+  flex: 0 0 150px;
+}
+
+.review-author-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review-content {
+  flex: 1;
+  text-align: left;
+}
+
+.review-text {
+  font-family: var(--Outfit);
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+
+.review-author-name {
+  font-family: var(--Outfit);
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
   }
-  
-  .seventh_section-subheading {
-    font-size: 20px;
-    color: #02652F;
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll-reverse {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .section-subheading {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  .section-heading {
+    font-size: 50px;
     margin-bottom: 10px;
-  }
-  
-  .seventh_section-heading {
-    font-size: 60px;
-    color: #333;
-    margin-bottom: 40px;
-  }
-  
-  .seventh_section-heading .highlight {
-    color: #02652F;
-  }
-  
-  .carousel-container {
-    position: relative;
-    width: 100%;
-    overflow: hidden; 
-  }
-  
-  .carousel-row-container {
-    position: relative;
-  }
-  
-  .carousel-row {
-    display: flex;
-    animation: scroll 60s linear infinite;
-    width: calc(900px * 6);
-  }
-  
-  .carousel-row-container:first-child {
-    margin-left: -500px; 
-  }
-  
-  .carousel-row.reverse {
-    animation: scroll-reverse 60s linear infinite;
-  }
-  
-  .review-card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: #eaf9e8; 
-    border-radius: 25px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 14px;
-    padding: 20px;
-    flex: 0 0 900px; 
-    gap: 20px;
-  }
-  
-  .review-image-container {
-    flex: 0 0 150px;
-  }
-  
-  .review-author-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-  
-  .review-content {
-    flex: 1;
-    text-align: left;
-  }
-  
-  .review-text {
-    font-family: var(--Outfit);
-    font-size: 20px;
-    color: #333;
-    margin-bottom: 10px;
-    line-height: 25px;
-  }
-  
-  .review-author-name {
-    font-family: var(--Outfit);
-    font-size: 20px;
-    color: #02652F;
     font-weight: bold;
   }
-  
-  @keyframes scroll {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(-100%);
-    }
+
+  .carousel-row {
+    width: calc(900px * 4);
   }
-  
-  @keyframes scroll-reverse {
-    from {
-      transform: translateX(-100%);
-    }
-    to {
-      transform: translateX(0);
-    }
+
+  .review-card {
+    flex: 0 0 600px;
+    padding: 15px;
   }
-  
+
+  .review-image-container {
+    flex: 0 0 100px;
+  }
+
+  .review-author-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .review-text {
+    font-size: 16px;
+    width: 96%;
+  }
+
+  .review-author-name {
+    font-size: 18px;
+  }
+}
