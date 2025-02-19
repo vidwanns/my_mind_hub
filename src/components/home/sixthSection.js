@@ -28,8 +28,8 @@ const SixthSection = () => {
 
   return (
     <section className="sixth-section">
-      <h3 className="section-subheading">We Made It Simple</h3>
-      <h2 className="section-heading">Schedule An Appointment</h2>
+      <p className="section-subheading">We Made It Simple</p>
+      <p className="section-heading">Schedule An Appointment</p>
       <button className="sixth_cta-button">Get Started</button>
 
       <div className="card-container">
@@ -37,7 +37,7 @@ const SixthSection = () => {
           <div className="info-card" key={card.id}>
             <img src={card.image} alt={card.title} className="card-image" />
             <div className="card-text">
-              <h4 className="card-title">{card.title}</h4>
+              <p className="card-title">{card.title}</p>
               <p className="card-description">{card.description}</p>
             </div>
           </div>
