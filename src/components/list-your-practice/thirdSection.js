@@ -79,7 +79,24 @@ const ThirdSection = () => {
               </li>
             ))}
           </ul>
-          <button className="get-started-btn">Get Started →</button>
+          <button className="get-started-btn">
+            Get Started
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              viewBox="0 0 16 16"
+              className="right-arrow-icon"
+              stroke="currentColor"
+              strokeWidth="1"
+            >
+              <path
+                fillRule="evenodd"
+                d="M1.5 8a.5.5 0 0 1 .5-.5h10.793L8.646 3.854a.5.5 0 1 1 .708-.708l4.5 4.5a.5.5 0 0 1 0 .708l-4.5 4.5a.5.5 0 0 1-.708-.708L12.793 8.5H2a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
+          </button>
         </div>
         <div className="third-image-container">
           <div className="signin-image"></div>

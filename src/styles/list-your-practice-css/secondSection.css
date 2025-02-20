@@ -5,6 +5,8 @@
   padding-left: 100px;
   background-color: #01652f;
   color: white;
+  z-index: 10;
+  position: relative;
 }
 
 .content {
@@ -15,7 +17,7 @@
   font-family: var(--Outfit);
   font-size: 70px;
   margin-bottom: 30px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 
 .second-section-description {
@@ -46,17 +48,18 @@
   color: #0b6632; /* Icon color */
 }
 
-.feature h3 {
+.feature-heading {
   font-family: var(--Outfit);
   font-size: 34px;
-  font-weight: bold;
+  /* font-weight: bold; */
   margin-bottom: 10px;
 }
 
-.feature p {
+.feature-description {
   font-family: var(--Outfit);
   font-size: 24px;
   margin: 0;
+  opacity: 0.9;
 }
 
 .Expand-icon,
@@ -64,7 +67,6 @@
 .Difference-icon {
   margin-top: 5px;
 }
-
 
 .image-section {
   display: flex;
@@ -76,4 +78,45 @@
   width: 100%;
   height: auto;
   left: 2%;
+}
+
+@media only screen and (max-width: 1700px) {
+  .second-section {
+    padding: 50px;
+    padding-left: 50px;
+  }
+
+  .secondSection-heading {
+    font-size: 50px;
+  }
+
+  .second-section-description {
+    font-size: 20px;
+  }
+
+  .features {
+    gap: 30px;
+  }
+
+  .feature-heading {
+    font-size: 28px;
+  }
+
+  .feature-description {
+    font-size: 18px;
+  }
+
+  .Expand-icon,
+  .Simplify-icon,
+  .Difference-icon {
+    scale: 0.8;
+    margin-top: 0;
+  }
+
+  .mobile-image {
+    width: 100%;
+    height: auto;
+    left: 0;
+    scale: 1.2;
+  }
 }
