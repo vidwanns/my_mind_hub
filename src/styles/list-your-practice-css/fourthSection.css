@@ -62,6 +62,15 @@
   background-color: #F6FAE2;
 }
 
+.package-price {
+  font-size: 24px;
+}
+
+.none-price {
+  font-size: 24px;
+  visibility: hidden;
+}
+
 .package-title {
   font-size: 1.5rem;
   font-weight: bold;
@@ -113,17 +122,67 @@
   align-items: center;
   position: relative;
   padding-left: 24px; 
+  opacity: .9;
 }
 
 .features-list li::before {
   content: "";
   position: absolute;
   left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 16px; 
+  top: 2px;
+  width: 16px;
   height: 16px;
   background-image: url("/images/list-your-practice/fourthSection/CheckMark.svg"); /* Update path */
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+}
+
+
+@media only screen and (max-width: 1700px) {
+
+  .List-fourth-section {
+    padding: 60px 100px;
+  }
+
+  .List-fourth-header-container {
+    width: 98%;
+  }
+
+  .List-section-heading {
+    font-size: 54px;
+    margin-bottom: 10px;
+  }
+
+  .List-section-description {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .price-note {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .package-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  .package-btn {
+    font-size: 18px;
+    color: #000;
+    padding: 14px;
+    margin: 10px 0 30px;
+  }
+
+  .features-title {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+
+  .features-list li {
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
 }

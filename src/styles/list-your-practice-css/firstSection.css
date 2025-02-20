@@ -23,7 +23,7 @@
   flex: 1;
   max-width: 43%;
   position: relative;
-  bottom: 5%;
+  top: -40px;
   margin-left: 40px;
 }
 
@@ -107,11 +107,11 @@
 .girl-image {
   position: absolute;
   bottom: 60px;
-  left: 25px;
+  left: 30px;
   width: 95%;
   height: 90%;
   object-fit: cover;
-  transform: scale(1.4) translateX(50px);
+  transform: scale(1.5) translateX(50px);
 }
 
 .sessions-overview {
@@ -175,7 +175,7 @@
   background: #fff;
   padding: 15px 20px;
   border-radius: 50px;
-  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   z-index: 4;
   display: flex;
   align-items: center;
@@ -216,6 +216,7 @@
     font-size: 50px;
     margin-bottom: 20px;
     width: 85%;
+    line-height: 55px;
   }
 
   .firstList-description {
@@ -237,22 +238,28 @@
   }
 
   .green-background {
-    width: 600px;
+    width: 560px;
     height: 1027px;
   }
 
   .image-container {
     width: 550px;
     height: 620px;
+    left: 30px;
   }
 
   .verified-users {
-    top: 10%;
+    top: 12%;
     left: 78%;
-    width: 240px;
-    height: 85px;
+    width: 230px;
+    height: 75px;
     gap: 22px;
-    padding: 12px 20px;
+    padding: 8px 16px;
+  }
+
+  .user-icon {
+    width: 55px;
+    height: 55px;
   }
 
   .user-count {
@@ -265,10 +272,15 @@
     width: 115px;
   }
 
+  .earnings-icon {
+    width: 55px;
+    height: 55px;
+  }
+
   .total-earnings {
-    bottom: 10%;
-    right: 80%;
-    padding: 12px 20px;
+    bottom: 16%;
+    right: 74%;
+    padding: 8px 16px;
   }
 
   .earnings-text {
