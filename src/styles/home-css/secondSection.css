@@ -177,7 +177,6 @@
   display: inline;
 }
 
-/* Hide full text and show short text on mobile */
 .mobile-text {
   display: none;
 }
@@ -186,7 +185,7 @@
   background-color: #fcf5e8;
 }
 
-@media only screen and (max-width: 1700px) {
+@media only screen and (max-width: 1600px) {
   .second-section__heading {
     font-size: 32px;
   }
@@ -234,6 +233,7 @@
 
   .practitioner-grid {
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
   }
 
   .partners-container {
@@ -269,6 +269,7 @@
   .provider-section {
     padding: 15px;
     width: 100%;
+    height: 300px;
     margin-top: 50px;
   }
 

@@ -69,7 +69,7 @@
   color: #ffffff; 
 }
 
-@media only screen and (max-width: 1700px) {
+@media only screen and (max-width: 1600px) {
   .grid-container {
     width: 85%;
     gap: 10px;

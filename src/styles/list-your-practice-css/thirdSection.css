@@ -174,7 +174,7 @@ ul li {
   right: 7%;
 }
 
-@media only screen and (max-width: 1700px) {
+@media only screen and (max-width: 1600px) {
   .third-section {
     padding: 50px;
   }

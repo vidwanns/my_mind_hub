@@ -90,7 +90,7 @@
   line-height: 27px;
 }
 
-@media only screen and (max-width: 1700px) {
+@media only screen and (max-width: 1600px) {
   .card-container {
     width: 1200px;
   }

@@ -4,7 +4,6 @@
     center;
   background-size: cover;
   height: 924px;
-  margin-top: -70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -107,7 +106,7 @@
   background-color: #005d30;
 }
 
-@media only screen and (max-width: 1700px) {
+@media only screen and (max-width: 1600px) {
   .first-section {
     height: 730px;
   }
@@ -144,6 +143,10 @@
   .first-section {
     height: 803px;
   }
+
+  .first-section__content {
+    margin-top: 0;
+}
 
   .search-bar {
     flex-direction: column;
